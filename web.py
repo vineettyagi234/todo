@@ -25,4 +25,3 @@ for index , item in enumerate(items1):
 st.text_input(label="Add a todo", placeholder='Add a todo...', on_change=add_todo,
               key='new_todo')
 print('hello')
-st.session_state
